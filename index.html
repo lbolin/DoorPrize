@@ -5,8 +5,8 @@
 <link rel="stylesheet" href="styles.css">
 <body>
     <h1>Door Prize</h1>
+    <h2 id ="PageTitle">Happy Racers!</h2>
     <div id='Page1'>
-        <h2>Happy Racers!</h2>
         <form>
             <label for="inputNames" id="inputLable">Enter Names :</label><br>
             <textarea id="inputNames" cols="25" rows="12">Quinn
@@ -25,26 +25,48 @@ Ron
         </form>
     </div>
     <div id='Page2' class="hidden" >
-        <h2>Contestants</h2>
+        <div id="racerIntro1" class="racer">
             <img src="img1.jpeg" id="img1" class="racerImg">
-            <p id="name1" class="racerName">Racer 1</p><br><br>
+            <p id="name1" class="racerName">Racer 1</p>
+        </div>
+        <div id="racerIntro2" class="racer">
             <img src="img2.jpeg" id="img2" class="racerImg">
-            <p id="name2" class="racerName">Racer 2</p><br><br>
+            <p id="name2" class="racerName">Racer 2</p>
+        </div>
+        <div id="racerIntro3" class="racer">        
             <img src="img3.jpeg" id="img3" class="racerImg">
-            <p id="name3" class="racerName">Racer 3</p><br><br>
+            <p id="name3" class="racerName">Racer 3</p>
+        </div>
+        <div id="racerIntro4" class="racer">        
             <img src="img4.jpeg" id="img4" class="racerImg">
-            <p id="name4" class="racerName">Racer 4</p><br><br>
+            <p id="name4" class="racerName">Racer 4</p>
+        </div>
+        <div id="racerIntro5" class="racer">        
             <img src="img5.jpeg" id="img5" class="racerImg">
-            <p id="name5" class="racerName">Racer 5</p><br><br>
+            <p id="name5" class="racerName">Racer 5</p>
+        </div>
             <button type="button" id ="raceBtn">Race!</button>
             <button type="button" id ="cancelBtn">Cancel</button>
 
     </div>
     <div id='Page3' class="hidden">
-        <h2>Race Screen</h2>
+        <div id="racer1" class="racer">
+            <img src="img1.jpeg" id="img1" class="racerImg">
+        </div>
+        <div id="racer2" class="racer">
+            <img src="img2.jpeg" id="img2" class="racerImg">
+        </div>
+        <div id="racer3" class="racer">        
+            <img src="img3.jpeg" id="img3" class="racerImg">
+        </div>
+        <div id="racer4" class="racer">        
+            <img src="img4.jpeg" id="img4" class="racerImg">
+        </div>
+        <div id="racer5" class="racer">        
+            <img src="img5.jpeg" id="img5" class="racerImg">
+        </div>
     </div>
     <div id='Page4' class="hidden">
-        <h2>Winner Screen</h2>
             <button type="button" id="newRaceBtn">New Race</button>
     </div>
 
