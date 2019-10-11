@@ -2,3 +2,12 @@
     display: none;
 }
 
+.racerImg {
+    width: 50px;
+    height: 60px;
+}
+
+.racerName {
+    display: inline;
+    width: auto;
+}
