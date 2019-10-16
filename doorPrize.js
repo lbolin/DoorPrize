@@ -19,6 +19,7 @@ function pickContestants() {
     })
     let numOfNames = inputNames.length;
     if (numOfNames < NUMRACERS) {
+        alert("Please enter at least 5 names")
 
     }
     else {
