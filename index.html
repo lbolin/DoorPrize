@@ -4,22 +4,12 @@
 <script src="doorPrize.js" defer></script>
 <link rel="stylesheet" href="styles.css">
 <body>
-    <h1>Door Prize</h1>
+    <h1 class="websiteTitle">Door Prize</h1>
     <h2 id ="PageTitle">Happy Racers!</h2>
     <div id='Page1'>
         <form>
             <label for="inputNames" id="inputLable">Enter Names :</label><br>
-            <textarea id="inputNames" cols="25" rows="12">Quinn
-Lauren
-McCown
-
-Brandt
-Bolin
-Julia
-Harry
-Hermoine
-Ron
-            </textarea><br>
+            <textarea id="inputNames" cols="25" rows="12"></textarea><br>
             </textarea>
             <button type="button" id="pickBtn">Pick Contestants!</button>
         </form>
@@ -51,22 +41,28 @@ Ron
     </div>
     <div id='Page3' class="hidden">
         <div id="racer1" class="racer">
-            <img src="img1.jpeg" id="img1" class="racerImg">
+            <img src="img1.jpeg" id="img1" class="racerImg" style="position:relative; left:0px;">
         </div>
         <div id="racer2" class="racer">
-            <img src="img2.jpeg" id="img2" class="racerImg">
+            <img src="img2.jpeg" id="img2" class="racerImg" style="position:relative; left:0px;">
         </div>
         <div id="racer3" class="racer">        
-            <img src="img3.jpeg" id="img3" class="racerImg">
+            <img src="img3.jpeg" id="img3" class="racerImg" style="position:relative; left:0px;">
         </div>
         <div id="racer4" class="racer">        
-            <img src="img4.jpeg" id="img4" class="racerImg">
+            <img src="img4.jpeg" id="img4" class="racerImg" style="position:relative; left:0px;">
         </div>
         <div id="racer5" class="racer">        
-            <img src="img5.jpeg" id="img5" class="racerImg">
+            <img src="img5.jpeg" id="img5" class="racerImg" style="position:relative; left:0px;">
         </div>
+        <button type="button" id="restartBtn" class="hidden">Restart Race</button>
+        <audio id="startSound">
+            <source src="start sound.mp3" type="audio/mp3" preload="auto">
+        </audio>
     </div>
     <div id='Page4' class="hidden">
+            <img src="" alt="Winner of Race" id="winnerImg">
+            <p id="winnerMessage">Congrats!</p>
             <button type="button" id="newRaceBtn">New Race</button>
     </div>
 

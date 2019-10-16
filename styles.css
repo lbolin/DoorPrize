@@ -9,5 +9,9 @@
 
 .racerName {
     display: inline;
-    width: auto;
+    /*width: auto;*/
+}
+
+.websiteTitle {
+    color: green;
 }
